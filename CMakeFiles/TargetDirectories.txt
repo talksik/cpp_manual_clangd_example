@@ -1,0 +1,3 @@
+/home/talksik/Code/cpp_helloworld/CMakeFiles/HelloWorld.dir
+/home/talksik/Code/cpp_helloworld/CMakeFiles/edit_cache.dir
+/home/talksik/Code/cpp_helloworld/CMakeFiles/rebuild_cache.dir
