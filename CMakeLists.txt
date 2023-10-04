@@ -8,3 +8,7 @@ set (source_dir "./src")
 file (GLOB source_files "${source_dir}/*.cpp")
 
 add_executable(HelloWorld ${source_files})
+
+file (GLOB header_files "${source_dir}/*.h")
+target_include_directories(HelloWorld PUBLIC ${source_dir})
+
