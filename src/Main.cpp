@@ -3,7 +3,7 @@
 #include <fstream>
 #include <string>
 
-std::string read_line(std::string file_path) {
+std::string read_line(std::string& file_path) {
   // Create an ifstream object and associate it with the file "example.txt".
   std::ifstream infile(file_path);
 
@@ -31,7 +31,8 @@ std::string read_line(std::string file_path) {
 int main() {
   std::cout << "Hello World!" << std::endl;
 
-  std::string line = read_line("../example.txt");
+  std::string file_path = "../example.txt";
+  std::string line = read_line(file_path);
 
   return 0;
 }
