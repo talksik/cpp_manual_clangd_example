@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/talksik/code/cpp_read_file_example/build",
+  "command": "/usr/bin/c++  -I/home/talksik/code/cpp_read_file_example/./src -g -std=gnu++14 -o CMakeFiles/HelloWorld.dir/src/Main.cpp.o -c /home/talksik/code/cpp_read_file_example/src/Main.cpp",
+  "file": "/home/talksik/code/cpp_read_file_example/src/Main.cpp"
+}
+]
